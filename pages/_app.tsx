@@ -1,4 +1,4 @@
-import { AuthBindings, GitHubBanner, Refine } from "@refinedev/core";
+import { AuthBindings, Refine } from "@refinedev/core";
 import { RefineKbar, RefineKbarProvider } from "@refinedev/kbar";
 import {
   notificationProvider,
@@ -107,7 +107,6 @@ const App = (props: React.PropsWithChildren) => {
 
   return (
     <>
-      <GitHubBanner />
       <RefineKbarProvider>
         <ColorModeContextProvider>
           <CssBaseline />
