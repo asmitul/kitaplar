@@ -6,4 +6,3 @@ kitaplar.biz
 npm install
 npm run dev
 ```
- --
