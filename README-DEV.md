@@ -21,3 +21,6 @@ npx shadcn-ui@latest init
 
 ## v0.0.4
 - [x] add ukij fonts
+
+## v0.0.5
+- [x] add fonts.ts , use different font when wanted

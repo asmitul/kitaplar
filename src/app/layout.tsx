@@ -1,12 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
-
-import localFont from 'next/font/local'
-
-const myFont = localFont({
-  src: './fonts/UKIJTuz.ttf',
-  display: 'swap',
-})
+import { ukijtuz } from './fonts'
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -20,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ug" dir="rtl">
-      <body className={myFont.className}>{children}</body>
+      <body className={ukijtuz.className}>{children}</body>
     </html>
   )
 }
