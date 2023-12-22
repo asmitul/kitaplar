@@ -3,5 +3,8 @@
 npx create-next-app@latest kitaplar
 ```
 
-# v0.0.0
-    [x] install
+# version
+<!-- todo list -->
+
+# todo list
+[#1] add todo list
