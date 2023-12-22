@@ -4,7 +4,5 @@ npx create-next-app@latest kitaplar
 ```
 
 # version
-<!-- todo list -->
-
-# todo list
-[#1] add todo list
+## v0.0.0
+- [x] create project
