@@ -37,3 +37,7 @@ npx shadcn-ui@latest init
 ## v0.0.6
 
 - [x] change src/app/layout.tsx
+
+## v0.0.7
+
+- [x] create MaxWidthWrapper.tsx , 这个组件是一个用于包裹其他组件并限制最大宽度的容器组件。
