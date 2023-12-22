@@ -13,8 +13,8 @@ npx create-next-app@latest kitaplar
 ## v0.0.2
 - [x] main entry : src/app/page.tsx , change it
 
-## v0.0.4
-- [x] install next/font
+## v0.0.3
+- [x] Run the shadcn-ui init command to setup your project:
 ```bash
-npm i @next/font
+npx shadcn-ui@latest init
 ```
