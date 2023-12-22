@@ -8,4 +8,7 @@ npx create-next-app@latest kitaplar
 - [x] create project
 
 ## v0.0.1
-- [ ] change language to ug from en
+- [x] change language to ug from en
+
+## v0.0.2
+- [x] main entry : src/app/page.tsx , change it
