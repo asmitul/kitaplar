@@ -18,3 +18,6 @@ npx create-next-app@latest kitaplar
 ```bash
 npx shadcn-ui@latest init
 ```
+
+## v0.0.4
+- [x] add ukij fonts
