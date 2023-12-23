@@ -49,3 +49,7 @@ npx shadcn-ui@latest init
 ## v0.0.9
 
 - [x] change global.css https://ui.shadcn.com/themes
+
+## v0.0.10
+
+- [x] modify src/app/page.tsx
