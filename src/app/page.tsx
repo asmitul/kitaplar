@@ -1,18 +1,30 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { Button, buttonVariants } from "@/components/ui/button";
-import { LibraryBigIcon, TabletSmartphoneIcon } from "lucide-react";
+import {
+  FacebookIcon,
+  LibraryBigIcon,
+  TabletSmartphoneIcon,
+} from "lucide-react";
 import Link from "next/link";
 
 const perks = [
   {
-    name: "قۇلايلىق",
-    Icon: TabletSmartphoneIcon,
-    description: "يان تېلېفوندا ئوقۇش قۇلايلىق",
+    name: " كۆپ خىل ۋە كەڭ كىتاب توپلىمى",
+    Icon: LibraryBigIcon,
+    description:
+      "كۈتۈپخانىڭىزنى قەرەللىك يېڭىلاپ ۋە كېڭەيتىپ ، مەزمۇننى يېڭىلاپ ، ئابونتلارنى يېڭى ئوقۇشلارنى بايقاشقا ئىلھاملاندۇرىمىز. ئوخشىمىغان قىزىقىش ئۈچۈن ئالاھىدە توپلام ياكى تېما تەۋسىيەلىرىنى گەۋدىلەندۈرۈڭ.",
   },
   {
-    name: "نۇرغۇن كىتابلار",
-    Icon: LibraryBigIcon,
-    description: "ئوقۇشىڭىز ئۈچۈن نۇرغۇن كىتابلار سۇنۇلدى",
+    name: " كۆرۈنمە يۈزى ۋە ئالاھىدىلىكى",
+    Icon: TabletSmartphoneIcon,
+    description:
+      "خاسلاشتۇرغىلى بولىدىغان خەت نۇسخىسى ، كەچلىك ھالەت ، خەتكۈچ ۋە ئۈسكۈنىلەر ئارا ئىلگىرىلەشنى ماسقەدەملەش قاتارلىق ئوقۇش تەجرىبىسىنى ئاشۇرىدىغان ئىقتىدارلارنى ئۆز ئىچىگە ئالىدۇ. يوچۇقسىز ۋە خۇشاللىنارلىق ئىشلەتكۈچى تەجرىبىسى زىيارەتچىلەرنى سۇپىڭىزدا كۆپرەك ۋاقىت ئۆتكۈزۈشكە ئىلھاملاندۇرىدۇ.",
+  },
+  {
+    name: "ئىجتىمائىي ئالاھىدىلىكلەر",
+    Icon: FacebookIcon,
+    description:
+      "مەۋھۇم كىتاب كۇلۇبلىرى ، ئاپتور سوئال-جاۋاب يىغىنلىرى ياكى باش تېمىلىق ئوقۇش خىرىسلىرى ساھىبخانلىق قىلىپ ، ئابونتلارنىڭ ئۆز-ئارا تەسىر كۆرسىتىشىگە ئىلھام بېرىدۇ. تەۋەلىك ۋە ئورتاق مەنپەئەت تۇيغۇسى سۇپىڭىزنى تېخىمۇ جەلپ قىلىدۇ ۋە ئابونتلارنى قايتىپ كېلىدۇ",
   },
 ];
 export default function Home() {
@@ -48,6 +60,14 @@ export default function Home() {
                   <div className="h-16 w-16 flex items-center justify-center rounded-full bg-blue-100 text-blue-900">
                     {<perk.Icon className="h-1/3 w-1/3" />}
                   </div>
+                </div>
+                <div className="mt-4 md:ml-4 md:mt-0 lg:mt-6 lg:ml-0">
+                  <h3 className="text-base font-medium text-gray-900">
+                    {perk.name}
+                  </h3>
+                  <p className="mt-3 text-sm text-muted-foreground">
+                    {perk.description}
+                  </p>
                 </div>
               </div>
             ))}

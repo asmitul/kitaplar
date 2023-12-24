@@ -77,3 +77,7 @@ npm add lucide-react
 ## v0.0.14
 
 - [x] modify src/app/page.tsx , add icons
+
+## v0.0.15
+
+- [x] modify src/app/page.tsx , add text
