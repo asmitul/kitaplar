@@ -73,3 +73,7 @@ npx shadcn-ui@latest add button
 ```bash
 npm add lucide-react
 ```
+
+## v0.0.14
+
+- [x] modify src/app/page.tsx , add icons
