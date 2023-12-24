@@ -81,3 +81,7 @@ npm add lucide-react
 ## v0.0.15
 
 - [x] modify src/app/page.tsx , add text
+
+## v0.0.16
+
+- [x] modify src/app/page.tsx , md:text-left to md:text-right
