@@ -61,3 +61,7 @@ npx shadcn-ui@latest init
 ```bash
 npx shadcn-ui@latest add button
 ```
+
+## v0.0.12
+
+- [x] modify src/app/page.tsx
