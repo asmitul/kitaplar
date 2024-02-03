@@ -94,3 +94,8 @@ npm add lucide-react
 
 - [x] add src/components/Navbar.tsx
 - [x] add navbar to src/app/layout.tsx
+
+## v0.0.19
+
+- [x] add src/components/Icons.tsx
+- [x] add logo icons to src/components/Navbar.tsx

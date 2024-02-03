@@ -1,5 +1,6 @@
 import Link from "next/link";
 import MaxWidthWrapper from "./MaxWidthWrapper";
+import { Icons } from "./Icons";
 
 const Navbar = () => {
   return (
@@ -7,10 +8,14 @@ const Navbar = () => {
       <header className="relative bg-white">
         <MaxWidthWrapper>
           <div className="border-b border-gray-200">
-            <div className="flex h-16 items-center"></div>
-            {/* TODO MOBILE NAV */}
-            <div className="ml-4 flex lg:ml-0">
-              <Link href="/">{/* TODO ADD LOGO */}</Link>
+            <div className="flex h-16 items-center">
+              {/* TODO MOBILE NAV */}
+              <div className="ml-4 flex lg:ml-0">
+                <Link href="/">
+                  {/* add logo from src/components/Icons.tsx */}
+                  <Icons.logo className="h-10 w-10" />
+                </Link>
+              </div>
             </div>
           </div>
         </MaxWidthWrapper>
