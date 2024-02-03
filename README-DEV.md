@@ -89,3 +89,8 @@ npm add lucide-react
 ## v0.0.17
 
 - [x] src/app/layout.tsx change fonts
+
+## v0.0.18
+
+- [x] add src/components/Navbar.tsx
+- [x] add navbar to src/app/layout.tsx
