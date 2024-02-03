@@ -90,12 +90,25 @@ npm add lucide-react
 
 - [x] src/app/layout.tsx change fonts
 
-## v0.0.18
+## v0.0.18 Navbar
 
 - [x] add src/components/Navbar.tsx
 - [x] add navbar to src/app/layout.tsx
 
-## v0.0.19
+## v0.0.19 add logo to Navbar
 
 - [x] add src/components/Icons.tsx
 - [x] add logo icons to src/components/Navbar.tsx
+
+## v0.0.20 add NavItems to Navbar , "use client" usage
+
+- [x] add src/components/NavItems.tsx
+- [x] add "use client" to NavItems.tsx
+
+```bash
+You're importing a component that needs useState. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+```
+
+- [x] declare UI categories to sprate place , src/config/index.ts
+- [x] modifile NavItems.tsx , add "PRODUCTION_CATEGORIES.map"
+- [x] add NavItem.tsx

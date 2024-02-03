@@ -1,6 +1,7 @@
 import Link from "next/link";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import { Icons } from "./Icons";
+import NavItems from "./NavItems";
 
 const Navbar = () => {
   return (
@@ -12,9 +13,11 @@ const Navbar = () => {
               {/* TODO MOBILE NAV */}
               <div className="mr-4 flex lg:ml-0">
                 <Link href="/">
-                  {/* add logo from src/components/Icons.tsx */}
                   <Icons.logo className="h-10 w-10" />
                 </Link>
+              </div>
+              <div className="hidden z-50 lg:mr-8 lg:block lg:self-stretch">
+                <NavItems />
               </div>
             </div>
           </div>
